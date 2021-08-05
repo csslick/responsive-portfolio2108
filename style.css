@@ -1,3 +1,8 @@
+:root {
+  --main-color: #E84118;
+  --text-color: #333;
+}
+
 /* style.css */
 * {
   box-sizing: border-box;
@@ -7,13 +12,19 @@
 
 body {
   margin: 0;
-  color: #333;
+  color: var(--text-color);
   font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
 }
 
 a {
   text-decoration: none;
   color: #333;
+}
+
+p {
+  margin-bottom: 27px;
+  line-height: 30px;
 }
 
 header {
@@ -27,6 +38,7 @@ header p {
   font-weight: bold;
   font-size: 20px;
   color: #707070;
+  margin-bottom: 0;
 }
 
 header h1 {
@@ -41,8 +53,14 @@ header h1 a span {
 
 section {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
+  /* 900이하로 줄어들지 않음 */
+  min-width: 900px;
   margin: 0 auto;
+}
+
+#main {
+  padding: 20px 0;
 }
 
 #main article {
@@ -65,3 +83,21 @@ section {
   justify-content:center;
   align-items: center;
 }
+
+#main article .text h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.linkBtn {
+  display: block;
+  background: var(--main-color);
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+
