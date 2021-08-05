@@ -32,6 +32,7 @@ header {
   border-bottom: 1px solid #ccc;
   padding-top: 40px;
   padding-bottom: 40px;
+  width: 100%;
 }
 
 header p {
@@ -65,6 +66,12 @@ section {
 
 #main article {
   display: flex;
+  margin-bottom: 30px;
+}
+
+/* 짝수 어티클은 반대로 표시 */
+#main article:nth-child(2n) {
+  flex-direction: row-reverse;
 }
 
 #main article figure {
