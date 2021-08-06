@@ -1,14 +1,31 @@
 /* mobile.css */
-body {
-  background: pink;
+header {
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+header p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
 section {
   width: 100%;
   margin: 0 auto;
 }
 
 #main {
-  padding: 20px 0;
+  padding: 0;
+  text-align: center;
 }
 
 #main article {
@@ -30,6 +47,8 @@ section {
   display: flex;
   justify-content:center;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #main article .text h3 {
