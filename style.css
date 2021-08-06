@@ -33,6 +33,11 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
+  position: -webkit-sticky; /* 사파리 브라우저 지원 */
+  position: sticky;
+  left: 0; top: 0;
+  background: #fff;
+  z-index: 99;
 }
 
 header p {
