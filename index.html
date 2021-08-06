@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="mobile.css" 
     media="screen and (max-width: 767px)"
   >
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOD JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <header>
@@ -44,7 +48,11 @@
         </div>
       </div>  
     </article>
-    <article>
+    <article 
+      data-aos="fade-right" 
+      data-aos-duration="2000"
+      data-aos-offset="400"
+    >
       <figure>
         <img src="images/work02.jpg" alt="모바일 초대장">
       </figure>
@@ -61,7 +69,11 @@
         </div>
       </div>  
     </article>
-    <article>
+    <article 
+      data-aos="fade-left" 
+      data-aos-duration="2000"
+      data-aos-offset="400"
+    >
       <figure>
         <img src="images/work03.jpg" alt="반응형 웹">
       </figure>
@@ -114,5 +126,9 @@
     </article>
   </section>
 
+  <script>
+    // AOS 출격준비
+    AOS.init();
+  </script>
 </body>
 </html>
