@@ -1,0 +1,41 @@
+/* mobile.css */
+body {
+  background: pink;
+}
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main {
+  padding: 20px 0;
+}
+
+#main article {
+  margin-bottom: 30px;
+}
+
+#main article figure {
+  width: 100%;
+}
+
+#main article figure img {
+  width: 100%;
+  display: block;
+}
+
+#main article .text {
+  background: #F1F1F1;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#main article .text h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
